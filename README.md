@@ -1,4 +1,4 @@
-🚀 **Agentic VPN Traffic Detection Prototype**
+🚀 **Agentic VPN Traffic Detection Prototype**  
 **Machine Learning + Agentic Reasoning Layer + FastAPI**
 
 This project demonstrates an end-to-end VPN traffic detection system built using real network captures.
