@@ -64,34 +64,29 @@ Open interactive docs:
 ➡ http://127.0.0.1:8000/docs
 
 **🧪 Example Classification Response**
-{
-  "probability_vpn": 0.94,
-  "final_label": "HIGH_CONFIDENCE_VPN",
-  "explanation": "Model probability >= 0.85 — strong VPN pattern"
-}
+        {
+          "probability_vpn": 0.94,
+          "final_label": "HIGH_CONFIDENCE_VPN",
+          "explanation": "Model probability >= 0.85 — strong VPN pattern"
+        }
 
 **📦 Repository Structure**
-vpn-agentic-detector/
-  ├── data/
-  ├── models/
-  ├── src/
-  ├── api/
-  ├── assets/
-  ├── requirements.txt
-  └── README.md
+        vpn-agentic-detector/
+          ├── data/
+          ├── models/
+          ├── src/
+          ├── api/
+          ├── requirements.txt
+          └── README.md
 
 **🔮 Future Improvements**
-
-Add JA3/TLS fingerprint extraction
-
-Integrate IP reputation + ASN threat intelligence
-
-Extend agent workflow using LLM-based reasoning
-
-Add automated PCAP ingestion pipeline
+-Add JA3/TLS fingerprint extraction
+-Integrate IP reputation + ASN threat intelligence
+-Extend agent workflow using LLM-based reasoning
+-Add automated PCAP ingestion pipeline
 
 **👨‍💻 Author**
 
 Shashank Singh
-Final-year CSE · AI & Security Research Enthusiast
+Final-year CSE · AI Research Enthusiast
 LinkedIn: your link here
