@@ -4,7 +4,7 @@
 This project demonstrates an end-to-end VPN traffic detection system built using real network captures.
 It extracts flow-level features from PCAPs, trains a machine-learning classifier, and layers it with an agentic decision workflow exposed via a FastAPI service.
 
-**🧩 Project Highlights**
+**🧩 Project Highlights**   
 
 ✔ Real VPN & non-VPN traffic captured using Wireshark  
 ✔ Flow-level feature extraction with Scapy  
@@ -13,12 +13,12 @@ It extracts flow-level features from PCAPs, trains a machine-learning classifier
 ✔ FastAPI microservice for interactive classification  
 ✔ Clean modular architecture suitable for research extension
 
-**📊 System Architecture**
+**📊 System Architecture**  
 
 
 <img width="1259" height="179" alt="image" src="https://github.com/user-attachments/assets/6da4060e-f33a-4af5-aeb3-af3609501c47" />
 
-**🔍 How It Works**
+**🔍 How It Works**  
 
 1️⃣ Capture network traffic (VPN & non-VPN)  
 2️⃣ Convert PCAP → flow-level features (packet sizes, timings, distributions)  
@@ -31,7 +31,7 @@ Human-readable explanation
 
 <img width="1167" height="165" alt="image" src="https://github.com/user-attachments/assets/42f18a1d-6ac2-4958-8355-157149893b4a" />
 
-**🛠️ Tech Stack**
+**🛠️ Tech Stack**  
 _Component	        Technology_
 Traffic Capture	        Wireshark
 Feature Extraction	Scapy, NumPy, Pandas
@@ -40,7 +40,7 @@ Agentic Reasoning	Custom decision agent
 API Framework	        FastAPI + Uvicorn
 Deployment Ready	Docker (optional)
 
-�**� Run Locally**
+�**� Run Locally**  
 1. Clone the repo
         _git clone https://github.com/yourusername/vpn-agentic-detector.git
         cd vpn-agentic-detector_
@@ -59,14 +59,14 @@ Deployment Ready	Docker (optional)
 Open interactive docs:
 ➡ http://127.0.0.1:8000/docs
 
-**🧪 Example Classification Response**
+**🧪 Example Classification Response**  
         {  
                 "probability_vpn": 0.94,  
                 "final_label": "HIGH_CONFIDENCE_VPN",  
                 "explanation": "Model probability >= 0.85 — strong VPN pattern"  
         }  
 
-**📦 Repository Structure**
+**📦 Repository Structure**  
         vpn-agentic-detector/  
         ├── data/  
         ├── models/  
@@ -76,13 +76,13 @@ Open interactive docs:
         ├── test_request.py  
         └── README.md  
 
-**🔮 Future Improvements**
+**🔮 Future Improvements**  
 -Add JA3/TLS fingerprint extraction  
 -Integrate IP reputation + ASN threat intelligence  
 -Extend agent workflow using LLM-based reasoning  
 -Add automated PCAP ingestion pipeline  
 
-**👨‍💻 Author**
+**👨‍💻 Author**  
 
 Shashank Singh  
 Final-year CSE · AI Research Enthusiast  
