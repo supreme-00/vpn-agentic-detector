@@ -15,6 +15,7 @@ It extracts flow-level features from PCAPs, trains a machine-learning classifier
 ✔ Agentic reasoning layer (ML + rule-based decision logic)
 
 ✔ FastAPI microservice for interactive classification
+
 ✔ Clean modular architecture suitable for research extension
 
 **📊 System Architecture**
@@ -24,13 +25,13 @@ It extracts flow-level features from PCAPs, trains a machine-learning classifier
 
 **🔍 How It Works**
 
-1️⃣ Capture network traffic (VPN & non-VPN)
-2️⃣ Convert PCAP → flow-level features (packet sizes, timings, distributions)
-3️⃣ Train ML model to classify VPN vs non-VPN
-4️⃣ Add agentic layer for:
-Label refinement
-Confidence scoring
-Human-readable explanation
+1️⃣ Capture network traffic (VPN & non-VPN)  
+2️⃣ Convert PCAP → flow-level features (packet sizes, timings, distributions)  
+3️⃣ Train ML model to classify VPN vs non-VPN  
+4️⃣ Add agentic layer for:  
+Label refinement  
+Confidence scoring  
+Human-readable explanation  
 5️⃣ Expose API endpoint:  /classify
 
 <img width="1167" height="165" alt="image" src="https://github.com/user-attachments/assets/42f18a1d-6ac2-4958-8355-157149893b4a" />
