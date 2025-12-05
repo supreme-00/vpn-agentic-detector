@@ -32,32 +32,32 @@ Human-readable explanation
 <img width="1167" height="165" alt="image" src="https://github.com/user-attachments/assets/42f18a1d-6ac2-4958-8355-157149893b4a" />
 
 **🛠️ Tech Stack**  
-_Component	        Technology_
-Traffic Capture	        Wireshark
-Feature Extraction	Scapy, NumPy, Pandas
-Model	                RandomForestClassifier (scikit-learn)
-Agentic Reasoning	Custom decision agent
-API Framework	        FastAPI + Uvicorn
-Deployment Ready	Docker (optional)
+_Component  	        Technology_  
+Traffic Capture         Wireshark  
+Feature Extraction    	Scapy, NumPy, Pandas  
+Model	                RandomForestClassifier (scikit-learn)  
+Agentic Reasoning  	Custom decision agent  
+API Framework  	        FastAPI + Uvicorn  
+Deployment Ready  	Docker (optional)  
 
 �**� Run Locally**  
-1. Clone the repo
-        _git clone https://github.com/yourusername/vpn-agentic-detector.git
-        cd vpn-agentic-detector_
+1. Clone the repo  
+        _git clone https://github.com/yourusername/vpn-agentic-detector.git  
+        cd vpn-agentic-detector_  
         
-2. Install dependencies
-        _pip install -r requirements.txt_
+2. Install dependencies  
+        _pip install -r requirements.txt_  
 
-3. (Optional) Rebuild the dataset
-        _python src/extract_features.py
-        python src/train_model.py_
+3. (Optional) Rebuild the dataset  
+        _python src/extract_features.py  
+        python src/train_model.py_  
 
-4. Start the API
-        _uvicorn api.app:app --reload_
+4. Start the API  
+        _uvicorn api.app:app --reload_  
 
 
-Open interactive docs:
-➡ http://127.0.0.1:8000/docs
+Open interactive docs:  
+➡ http://127.0.0.1:8000/docs  
 
 **🧪 Example Classification Response**  
         {  
