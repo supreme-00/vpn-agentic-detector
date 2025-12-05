@@ -32,13 +32,14 @@ Human-readable explanation
 <img width="1167" height="165" alt="image" src="https://github.com/user-attachments/assets/42f18a1d-6ac2-4958-8355-157149893b4a" />
 
 **🛠️ Tech Stack**  
-_Component  	        Technology_  
-Traffic Capture         Wireshark  
-Feature Extraction    	Scapy, NumPy, Pandas  
-Model	                RandomForestClassifier (scikit-learn)  
-Agentic Reasoning  	Custom decision agent  
-API Framework  	        FastAPI + Uvicorn  
-Deployment Ready  	Docker (optional)  
+| _Component_  	      |  _Technology_                         |
+|---------------------|---------------------------------------|
+| Traffic Capture     | Wireshark                             |
+| Feature Extraction  | Scapy, NumPy, Pandas                  | 
+| Model	              | RandomForestClassifier (scikit-learn) |
+| Agentic Reasoning   |	Custom decision agent                 |
+| API Framework       | FastAPI + Uvicorn                     |
+| Deployment Ready    | Docker (optional)                     |
 
 �**� Run Locally**  
 1. Clone the repo  
