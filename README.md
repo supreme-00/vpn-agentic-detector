@@ -6,16 +6,11 @@ It extracts flow-level features from PCAPs, trains a machine-learning classifier
 
 **🧩 Project Highlights**
 
-✔ Real VPN & non-VPN traffic captured using Wireshark
-
-✔ Flow-level feature extraction with Scapy
-
-✔ RandomForest classifier achieving ~99% accuracy
-
-✔ Agentic reasoning layer (ML + rule-based decision logic)
-
-✔ FastAPI microservice for interactive classification
-
+✔ Real VPN & non-VPN traffic captured using Wireshark  
+✔ Flow-level feature extraction with Scapy  
+✔ RandomForest classifier achieving ~99% accuracy  
+✔ Agentic reasoning layer (ML + rule-based decision logic)  
+✔ FastAPI microservice for interactive classification  
 ✔ Clean modular architecture suitable for research extension
 
 **📊 System Architecture**
@@ -65,30 +60,30 @@ Open interactive docs:
 ➡ http://127.0.0.1:8000/docs
 
 **🧪 Example Classification Response**
-        {
-                "probability_vpn": 0.94,
-                "final_label": "HIGH_CONFIDENCE_VPN",
-                "explanation": "Model probability >= 0.85 — strong VPN pattern"
-        }
+        {  
+                "probability_vpn": 0.94,  
+                "final_label": "HIGH_CONFIDENCE_VPN",  
+                "explanation": "Model probability >= 0.85 — strong VPN pattern"  
+        }  
 
 **📦 Repository Structure**
-        vpn-agentic-detector/
-        ├── data/
-        ├── models/
-        ├── src/
-        ├── api/
-        ├── requirements.txt
-        ├── test_request.py
-        └── README.md
+        vpn-agentic-detector/  
+        ├── data/  
+        ├── models/  
+        ├── src/  
+        ├── api/  
+        ├── requirements.txt  
+        ├── test_request.py  
+        └── README.md  
 
 **🔮 Future Improvements**
--Add JA3/TLS fingerprint extraction
--Integrate IP reputation + ASN threat intelligence
--Extend agent workflow using LLM-based reasoning
--Add automated PCAP ingestion pipeline
+-Add JA3/TLS fingerprint extraction  
+-Integrate IP reputation + ASN threat intelligence  
+-Extend agent workflow using LLM-based reasoning  
+-Add automated PCAP ingestion pipeline  
 
 **👨‍💻 Author**
 
-Shashank Singh
-Final-year CSE · AI Research Enthusiast
-LinkedIn: your link here
+Shashank Singh  
+Final-year CSE · AI Research Enthusiast  
+LinkedIn: your link here  
