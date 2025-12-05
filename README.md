@@ -7,9 +7,13 @@ It extracts flow-level features from PCAPs, trains a machine-learning classifier
 **🧩 Project Highlights**
 
 ✔ Real VPN & non-VPN traffic captured using Wireshark
+
 ✔ Flow-level feature extraction with Scapy
+
 ✔ RandomForest classifier achieving ~99% accuracy
+
 ✔ Agentic reasoning layer (ML + rule-based decision logic)
+
 ✔ FastAPI microservice for interactive classification
 ✔ Clean modular architecture suitable for research extension
 
