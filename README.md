@@ -24,13 +24,9 @@ It extracts flow-level features from PCAPs, trains a machine-learning classifier
 2️⃣ Convert PCAP → flow-level features (packet sizes, timings, distributions)
 3️⃣ Train ML model to classify VPN vs non-VPN
 4️⃣ Add agentic layer for:
-
 Label refinement
-
 Confidence scoring
-
 Human-readable explanation
-
 5️⃣ Expose API endpoint:  /classify
 
 <img width="1167" height="165" alt="image" src="https://github.com/user-attachments/assets/42f18a1d-6ac2-4958-8355-157149893b4a" />
@@ -65,19 +61,20 @@ Open interactive docs:
 
 **🧪 Example Classification Response**
         {
-          "probability_vpn": 0.94,
-          "final_label": "HIGH_CONFIDENCE_VPN",
-          "explanation": "Model probability >= 0.85 — strong VPN pattern"
+                "probability_vpn": 0.94,
+                "final_label": "HIGH_CONFIDENCE_VPN",
+                "explanation": "Model probability >= 0.85 — strong VPN pattern"
         }
 
 **📦 Repository Structure**
         vpn-agentic-detector/
-          ├── data/
-          ├── models/
-          ├── src/
-          ├── api/
-          ├── requirements.txt
-          └── README.md
+        ├── data/
+        ├── models/
+        ├── src/
+        ├── api/
+        ├── requirements.txt
+        ├── test_request.py
+        └── README.md
 
 **🔮 Future Improvements**
 -Add JA3/TLS fingerprint extraction
