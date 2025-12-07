@@ -2,7 +2,7 @@
 **Machine Learning + Agentic Reasoning Layer + FastAPI**
 
 This project demonstrates an end-to-end VPN traffic detection system built using real network captures.
-It extracts flow-level features from PCAPs, trains a machine-learning classifier, and layers it with an agentic decision workflow exposed via a FastAPI service.
+It extracts flow-level features from around 3000+ PCAPs, trains a machine-learning classifier, and layers it with an agentic decision workflow exposed via a FastAPI service.
 
 **🧩 Project Highlights**   
 
